@@ -1,4 +1,7 @@
-import { initializeApp } from 'firebase/app';
+'use strict';
+
+const { initializeApp } = require('firebase-admin/app');
+
 import { getAuth } from 'firebase/auth';
 const firebaseConfig = {
   apiKey: 'AIzaSyDxGZf3d8qB0VS5hse-8DZgY14o3lUEqjE',
