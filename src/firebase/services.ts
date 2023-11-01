@@ -1,9 +1,11 @@
+'use strict';
+const { FirebaseAuth } = require('./config');
+
 import {
   onAuthStateChanged,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword
 } from 'firebase/auth';
-import { FirebaseAuth } from './config';
 interface PropsRegister {
   email: string;
   password: string;
