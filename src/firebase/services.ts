@@ -1,5 +1,5 @@
 'use strict';
-const { FirebaseAuth } = require('./config');
+import { FirebaseAuth } from './config';
 
 import {
   onAuthStateChanged,

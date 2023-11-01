@@ -1,6 +1,6 @@
 'use strict';
 
-const { initializeApp } = require('firebase-admin/app');
+import { initializeApp } from 'firebase/app';
 
 import { getAuth } from 'firebase/auth';
 const firebaseConfig = {
