@@ -7,7 +7,7 @@
 Execute the following commands:
 
 ```bash
-git clone https://github.com/crystalium-hr/fantasy-football-frontend.git
+git clone https://github.com/Ganuska/filter-and-sort.git
 cd test_task
 npm install
 ```
