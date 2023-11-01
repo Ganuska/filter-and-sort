@@ -13,7 +13,8 @@ interface Application {
 }
 
 const Home = () => {
-  const [applications, setApplications] = useState(dummyApplications);
+  // eslint-disable-next-line
+  const applications = dummyApplications;
   const [filters, setFilters] = useState({
     country: 'All',
     university: 'All',
